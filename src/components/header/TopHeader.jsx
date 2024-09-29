@@ -55,11 +55,17 @@ const TopHeader = () => {
     <HeaderWrapper>
       <InfoItem>
         <FaEnvelope />
-        Email: akulkarni417@gmail.com
+        Email:
+        <a href="mailto:akulkarni417@gmail.com" style={{ color: "#FFDD57" }}>
+          akulkarni417@gmail.com
+        </a>
       </InfoItem>
       <InfoItem>
         <FaPhone />
-        24/7 Service, Contact: <ContactNumber>9822390717</ContactNumber>
+        24/7 Service, Contact:
+        <a href="tel:9822390717">
+          <ContactNumber>9822390717</ContactNumber>
+        </a>
       </InfoItem>
     </HeaderWrapper>
   );

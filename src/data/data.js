@@ -397,37 +397,37 @@ const feedbackData = [
     id: "feedback-1",
     imgSource: staticImages.test1,
     name: "Floyd Miles",
-    designation: "Marketing Manger",
-    rating: 3,
+    designation: "Satisfied customer",
+    rating: 5,
     feedbackText:
-      "I am incredibly pleased with my recent shopping experience on this clothing ecommerce website. The user-friendly interface made it a breeze to browse through a wide range of stylish options. The variety of sizes and styles available was impressive, and I found the perfect outfit for a special occasion. ",
+      "I am totally satisfied with the services this company is offering , Best service ever!.I've installed 3KWA ongrid solar from him and by bill has been turned to 0.Well the work done at site is clean and perfect.The process was seemless",
   },
   {
     id: "feedback-2",
     imgSource: staticImages.test2,
     name: "Ronald Richards",
-    designation: "Teacher",
-    rating: 4,
+    designation: "Satisfied customer",
+    rating: 5,
     feedbackText:
-      "This clothing ecommerce website has become my go-to destination for fashion finds. The selection is fantastic, catering to various tastes and preferences. From casual wear to elegant pieces, I always discover something unique and stylish. The website's organization and clear product images make it easy to make informed choices. ",
+      "I am customer of precision power since 10 years and we've a best mutual trust on product as well as services offered to us.Even I have good relations with owner not just professional relations.He has always offered me services within 24 hours.I tried with lot of dealers previously but none were near this company",
   },
   {
     id: "feedback-3",
     imgSource: staticImages.test3,
     name: "Savannah Nguyen",
-    designation: "Student",
+    designation: "Satisfied customer",
     rating: 4,
     feedbackText:
-      "I want to express my gratitude for the exceptional service provided by this clothing ecommerce website. Not only is the website intuitive and easy to navigate, but the customer service team also went above and beyond to assist me with a query. ",
+      "I want to express my gratitude for the exceptional service provided by this ecommerce website. Not only is the website intuitive and easy to navigate, but the customer service team also went above and beyond to assist me with a query. ",
   },
   {
     id: "feedback-4",
     imgSource: staticImages.test4,
     name: "Arthur Ramsay",
-    designation: "Fashion Designer",
-    rating: 4,
+    designation: "Happy Customer",
+    rating: 5,
     feedbackText:
-      "I recently made a purchase from this clothing ecommerce website, and I couldn't be happier with my experience. The website is well-designed, making it easy to navigate and find the items I was looking for. The product descriptions were detailed, helping me make informed decisions.",
+      "I recently made a purchase from this ecommerce website, and I couldn't be happier with my experience. The website is well-designed, making it easy to navigate and find the items I was looking for. The product descriptions were detailed, helping me make informed decisions.",
   },
 ];
 
