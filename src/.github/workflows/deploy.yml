@@ -2,8 +2,9 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - main
+    branches:/mnt/data/Precision Power Equipments/Project/achats-ecommerce-website-design-series/src/.github
+
+    - main
 
 jobs:
   build:
@@ -13,7 +14,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-
       - name: Setup Node
         uses: actions/setup-node@v3
 
