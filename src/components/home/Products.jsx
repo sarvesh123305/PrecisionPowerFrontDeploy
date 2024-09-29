@@ -46,17 +46,15 @@ const FeaturedCardWrapper = styled.div`
   }
 
   .feat-card-img {
-    width: 100%; // Ensures the image fits the width of the container
-    height: 100%; // Ensures the image fits the height of the container
-    object-fit: cover; // Ensures the image covers the container, possibly cropping
-    object-position: center; // Centers the image within the container
+    object-position: 93px 90px;
+    scale: 2;
 
     @media (max-width: ${breakpoints.xl}) {
-      object-position: 73px 90px; // Adjust positioning for smaller screens
+      object-position: 73px 90px;
     }
 
     @media (max-width: ${breakpoints.sm}) {
-      object-position: 0px 90px; // Adjust positioning for very small screens
+      object-position: 0px 90px;
     }
   }
 
