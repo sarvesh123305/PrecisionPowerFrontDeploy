@@ -7,6 +7,8 @@ import Catalog from "../../components/home/Catalog";
 import { limelightCatalog, mensCatalog, womensCatalog } from "../../data/data";
 import Brands from "../../components/home/Brands";
 import Feedback from "../../components/home/Feedback";
+import HappyCustomers from "../../components/home/HappyCustomers";
+import Products from "../../components/home/Products";
 
 const HomeScreenWrapper = styled.main``;
 
@@ -14,13 +16,19 @@ const HomeScreen = () => {
   return (
     <HomeScreenWrapper>
       <Hero />
+      <HappyCustomers />
       <Featured />
+      <Products />
       <NewArrival />
+      {/*
       <SavingZone />
       <Catalog catalogTitle={"Categories For Men"} products={mensCatalog} />
       <Catalog catalogTitle={"Categories For Women"} products={womensCatalog} />
+      */}
       <Brands />
-      <Catalog catalogTitle={"In The LimeLight"} products={limelightCatalog} />
+      {/*
+        <Catalog catalogTitle={"In The LimeLight"} products={limelightCatalog} />
+       */}
       <Feedback />
     </HomeScreenWrapper>
   );

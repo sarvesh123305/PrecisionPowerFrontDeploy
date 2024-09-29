@@ -63,7 +63,7 @@ const Brands = () => {
       <Container>
         <BrandsContent className="bg-outerspace">
           <StyledSectionTitle className="text-white text-center justify-center flex-col">
-            <h3>Top Brands Deal</h3>
+            <h3>Top Brands Available</h3>
             <p className="text-xxl text-white">
               Up to <span className="text-yellow">60%</span> off on brands.
             </p>

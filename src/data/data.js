@@ -4,27 +4,22 @@ const navMenuData = [
   {
     id: "nav-menu-1",
     menuLink: "/",
-    menuText: "Shop",
+    menuText: "Home",
   },
   {
     id: "nav-menu-2",
     menuLink: "/",
-    menuText: "Men",
+    menuText: "Products",
   },
   {
     id: "nav-menu-3",
     menuLink: "/",
-    menuText: "Women",
+    menuText: "About Us",
   },
   {
     id: "nav-menu-4",
     menuLink: "/",
-    menuText: "Combos",
-  },
-  {
-    id: "nav-menu-5",
-    menuLink: "/",
-    menuText: "Fashion",
+    menuText: "Contact Us",
   },
 ];
 
@@ -62,48 +57,57 @@ const sideMenuData = [
 ];
 
 const bannerData = [
-  {
-    id: "banner-1",
-    topText: "T-shirt / Tops",
-    titleText: "Summer Value Pack",
-    bottomText: "cool / colorful / comfy",
-    buttonLink: "/",
-    buttonText: "Shop Now",
-    imgSource: staticImages.hero_img1,
-  },
-  {
-    id: "banner-2",
-    topText: "Quality / Branded",
-    titleText: "Season Of Offers",
-    bottomText: "offers / heavy discount / coupons",
-    buttonLink: "/",
-    buttonText: "Shop Now",
-    imgSource: staticImages.hero_img2,
-  },
-  {
-    id: "banner-3",
-    topText: "Seasonal Attire / Collection",
-    titleText: "New Arrivals & Special",
-    bottomText: "stylish / trendy",
-    buttonLink: "/",
-    buttonText: "Shop Now",
-    imgSource: staticImages.hero_img3,
-  },
+  // {
+  //   id: "banner-1",
+  //   topText: "T-shirt / Tops",
+  //   titleText: "Summer Value Pack",
+  //   bottomText: "cool / colorful / comfy",
+  //   buttonLink: "/",
+  //   buttonText: "Shop Now",
+  //   imgSource: staticImages.hero_img1,
+  // },
+  // {
+  //   id: "banner-2",
+  //   topText: "Quality / Branded",
+  //   titleText: "Season Of Offers",
+  //   bottomText: "offers / heavy discount / coupons",
+  //   buttonLink: "/",
+  //   buttonText: "Shop Now",
+  //   imgSource: staticImages.hero_img2,
+  // },
+  // {
+  //   id: "banner-3",
+  //   topText: "Seasonal Attire / Collection",
+  //   titleText: "New Arrivals & Special",
+  //   bottomText: "stylish / trendy",
+  //   buttonLink: "/",
+  //   buttonText: "Shop Now",
+  //   imgSource: staticImages.hero_img3,
+  // },
   {
     id: "banner-4",
-    topText: "Party & Wedding Dress",
+    topText: "Electric Solar ",
+    titleText: "100% Green Energy",
+    bottomText: "Turn your light bill to 0",
+    buttonLink: "/",
+    buttonText: "Enquire Now",
+    imgSource: staticImages.solar2,
+  },
+  {
+    id: "banner-5",
+    topText: "Solar",
     titleText: "Fashionable Choice for Occasion",
     bottomText: "offers / discounts / coupons",
     buttonLink: "/",
     buttonText: "Shop Now",
-    imgSource: staticImages.hero_img4,
+    imgSource: staticImages.solar1,
   },
 ];
 
 const featuredData = [
   {
     id: "featured-1",
-    imgSource: staticImages.img1,
+    imgSource: staticImages.batteries,
     topText: "Low Price",
     largeText: "High Coziness",
     bottomText: "upto 50% off",
@@ -119,12 +123,21 @@ const featuredData = [
     buttonLink: "/",
     buttonText: "Explore Items",
   },
+  {
+    id: "featured-3",
+    imgSource: staticImages.img2,
+    topText: "Beyoung Presents",
+    largeText: "Breezy Summer Style",
+    bottomText: "upto 30% off",
+    buttonLink: "/",
+    buttonText: "Explore Items",
+  },
 ];
 
 const newArrivalData = [
   {
     id: "new-arrival-1",
-    imgSource: staticImages.product1,
+    imgSource: staticImages.batteries_resized,
     title: "Knitted Joggers",
   },
   {
@@ -147,16 +160,16 @@ const newArrivalData = [
     imgSource: staticImages.product5,
     title: "Urban Shirts",
   },
-  {
-    id: "new-arrival-6",
-    imgSource: staticImages.product6,
-    title: "Urban Shirts",
-  },
-  {
-    id: "new-arrival-7",
-    imgSource: staticImages.product7,
-    title: "Urban Shirts",
-  },
+  // {
+  //   id: "new-arrival-6",
+  //   imgSource: staticImages.product6,
+  //   title: "Urban Shirts",
+  // },
+  // {
+  //   id: "new-arrival-7",
+  //   imgSource: staticImages.product7,
+  //   title: "Urban Shirts",
+  // },
 ];
 
 const savingZoneData = [
@@ -345,25 +358,37 @@ const womensCatalog = products.slice(11, 15);
 const limelightCatalog = products.slice(15, 19);
 
 const brandsData = [
-  {
-    id: "brand-1",
-    imgSource: staticImages.brand1,
-  },
-  {
-    id: "brand-2",
-    imgSource: staticImages.brand2,
-  },
-  {
-    id: "brand-3",
-    imgSource: staticImages.brand3,
-  },
+  // {
+  //   id: "brand-1",
+  //   imgSource: staticImages.brand1,
+  // },
+  // {
+  //   id: "brand-2",
+  //   imgSource: staticImages.brand2,
+  // },
+  // {
+  //   id: "brand-3",
+  //   imgSource: staticImages.brand3,
+  // },
   {
     id: "brand-4",
-    imgSource: staticImages.brand4,
+    imgSource: staticImages.amaron,
   },
   {
     id: "brand-5",
-    imgSource: staticImages.brand5,
+    imgSource: staticImages.exide,
+  },
+  {
+    id: "brand-6",
+    imgSource: staticImages.anchorPanasonic,
+  },
+  {
+    id: "brand-7",
+    imgSource: staticImages.microtek,
+  },
+  {
+    id: "brand-8",
+    imgSource: staticImages.luminious,
   },
 ];
 
@@ -443,10 +468,10 @@ const footerData = [
     id: "f_location",
     title: "Location",
     lists: [
-      { text: "Tsupport@euphoria.in" },
-      { text: "Highland Strett, A04 Street 4014" },
-      { text: "New York City, USA" },
-      { text: "Phone: +000 999 8888" },
+      { text: "akulkarni417@gmail.com" },
+      { text: "2058/59 Shrikrishna Chembers,  " },
+      { text: "11th Lane Rajarampuri,Kolhapur,Maharashtra" },
+      { text: "Phone: +91 9822390717" },
     ],
   },
 ];

@@ -126,6 +126,20 @@ import paypal from "../assets/images/paypal.png";
 import paypass from "../assets/images/paypass.png";
 import confirmed_img from "../assets/images/confirmed_img.svg";
 
+//top Brands
+import anchorPanasonic from "../assets/images/anchorPanasonic.png";
+import microtek from "../assets/images/microtek.jpeg";
+import luminious from "../assets/images/luminious.jpeg";
+import exide from "../assets/images/exide.png";
+import amaron from "../assets/images/amaron.png";
+import solar from "../assets/images/solar.jpeg";
+import solar1 from "../assets/images/solar1.jpeg";
+import solar2 from "../assets/images/solar2.png";
+
+//Product Section
+import batteries from "../assets/images/batteries.png";
+import batteries_resized from "../assets/images/batteries_resized.png";
+
 export const staticImages = {
   logo,
   form_img1,
@@ -223,4 +237,14 @@ export const staticImages = {
   paypal,
   paypass,
   confirmed_img,
+  anchorPanasonic,
+  microtek,
+  luminious,
+  amaron,
+  exide,
+  solar,
+  solar1,
+  solar2,
+  batteries,
+  batteries_resized,
 };

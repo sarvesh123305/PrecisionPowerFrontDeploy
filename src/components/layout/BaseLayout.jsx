@@ -3,10 +3,12 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import Sidebar from "../sidebar/Sidebar";
 import { Outlet } from "react-router-dom";
+import TopHeader from "../header/TopHeader";
 
 const BaseLayout = () => {
   return (
     <PageWrapper>
+      <TopHeader />
       <Header />
       <Sidebar />
       <div
